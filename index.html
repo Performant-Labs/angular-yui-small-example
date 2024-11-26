@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngularJS with YUI 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="http://yui.yahooapis.com/3.18.1/build/yui/yui-min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="MainController">
+    <div>
+        <h1>AngularJS and YUI 3 Integration</h1>
+        <label for="userInput">Enter some text:</label>
+        <input id="userInput" type="text" ng-model="userText">
+        <button ng-click="changeBackground()">Change Background Color (YUI)</button>
+    </div>
+    <div id="output">
+        <p>You typed: {{ userText }}</p>
+    </div>
+</body>
+</html>

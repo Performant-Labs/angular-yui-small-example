@@ -1,0 +1,23 @@
+{
+  "name": "angular-yui-app",
+  "version": "1.0.0",
+  "description": "A simple AngularJS application that integrates with the YUI 3 library.",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "angular": "^1.8.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "keywords": [
+    "angularjs",
+    "yui",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
